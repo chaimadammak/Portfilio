@@ -1,9 +1,10 @@
-.bg-gradient-primary-to-secondary {
-   background: linear-gradient(135deg,  #ff8a00 0%, #e52e71 100%);
+.bg-gradient-custom {
+  background: linear-gradient(135deg, #87CEEB 0%, #fd7fad 50%, #ffffff 50%, #ffffff 100%);
 }
 
+
 .text-gradient {
-  background: -webkit-linear-gradient(135deg,  #ff8a00 0%, #e52e71 100%);
+  background: -webkit-linear-gradient(135deg,  #87CEEB 0%,#fd7fad 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

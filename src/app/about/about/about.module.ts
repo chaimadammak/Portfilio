@@ -6,6 +6,6 @@ import { AboutComponent } from './about.component';
   imports: [
     CommonModule
   ],
-  declarations: [AboutComponent]
+  declarations: []
 })
 export class AboutModule { }

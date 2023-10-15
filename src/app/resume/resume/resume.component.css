@@ -4,11 +4,11 @@ html {
   }
   
   .bg-gradient-primary-to-secondary {
-    background: linear-gradient(135deg,  #ff8a00 0%, #e52e71 100%);
+    background: linear-gradient(135deg,  #87CEEB 0%, #fd7fad 100%);
  }
  
  .text-gradient {
-   background: -webkit-linear-gradient(135deg,  #ff8a00 0%, #e52e71 100%);
+   background: -webkit-linear-gradient(135deg,  #87CEEB 0%,#fd7fad 100%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
  }
@@ -60,7 +60,7 @@ html {
     top: 6.05vw;
   }
   .profile .dots-2 svg {
-    fill: #1e30f3;
+    fill:#87CEEB;
   }
   .profile .dots-3 {
     position: absolute;
@@ -78,7 +78,7 @@ html {
     bottom: 4vw;
   }
   .profile .dots-4 svg {
-    fill: #1e30f3;
+    fill: #87CEEB;
   }
   
   @media (min-width: 576px) {
@@ -186,9 +186,23 @@ html {
 
 
   .primary {
-    background-color: #e52e71;
+    background-color: #fd7fad ;
     color: #fff;
   }
   .primarytext {
-    color: #e52e71;
+    color: #fd7fad ;
   }
+  .square {
+    position: relative;
+   background-color: #fffdfd;
+   border-radius: 1rem;
+
+   
+ }
+ .square img {
+   max-width: 100%;
+   max-height: 100%;
+   width: auto;
+   height: auto;
+   display: block; /* Removes extra space below the image */
+ }
